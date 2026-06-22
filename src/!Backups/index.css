@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0c;
+  --color-card: #121318;
+  --color-accent: #e30613;
+  --color-borderDark: #1c1e24;
+}
+
+/* Reset e Configurações Básicas */
+html, body {
+  background-color: var(--color-background);
+  color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  
+  /* Esconde a barra de rolagem no Firefox e Edge/IE */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Esconde a barra de rolagem no Chrome/Safari */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Animação de Entrada Geral */
+.fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animação de Rolagem Infinita para a Pista de Carrinhos */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 16s linear infinite;
+}
+
+/* Entrada: Sugado para fora do botão */
+@keyframes portalSuckIn {
+  0% { transform: scale(0.02) translateY(280px); opacity: 0; filter: blur(12px); }
+  65% { transform: scale(1.03) translateY(-10px); opacity: 0.95; filter: blur(0px); }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* Saída: Sugado de volta para dentro do botão */
+@keyframes portalSuckOut {
+  0% { transform: scale(1) translateY(0); opacity: 1; filter: blur(0px); }
+  35% { transform: scale(1.03) translateY(-10px); opacity: 0.95; filter: blur(0px); }
+  100% { transform: scale(0.02) translateY(280px); opacity: 0; filter: blur(12px); }
+}
+
+.animate-portal-in {
+  animation: portalSuckIn 0.75s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+.animate-portal-out {
+  animation: portalSuckOut 0.75s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}

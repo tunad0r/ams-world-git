@@ -1,0 +1,29 @@
+=== 🇧🇷 COPIE ESTE BLOCO E COLE DENTRO DE "pt: [" NO ARQUIVO src/data/allMods.js ===
+
+    {
+      id: 99, // <-- Altere para o próximo número sequencial (Ex: 4, 5, 6...)
+      title: "CART EXTREME 1998",
+      category: "VEÍCULOS",
+      downloads: "0",
+      description: "A clássica categoria IndyCar de 1998. Feito pelo Patrick Giranthon.",
+      image: "https://www.overtake.gg/proxy.php?image=http%3A%2F%2Fwww.easy-upload.net%2Ffichiers%2FAMS_CART2.201661517337.jpg&hash=0bdb907db7e8bd048a22626ed9999e79",
+      link: "https://www.overtake.gg/downloads/cart-extreme.10810/download",
+      icon: "🚗"
+    },
+
+========================================================================
+
+=== 🇺🇸 COPIE ESTE BLOCO E COLE DENTRO DE "en: [" NO ARQUIVO src/data/allMods.js ===
+
+    {
+      id: 99, // <-- Coloque o mesmo número que definiu no bloco de cima
+      title: "CART EXTREME 1998",
+      category: "VEHICLES",
+      downloads: "0",
+      description: "The classic IndyCar category from 1998. Made by Patrick Giranthon.",
+      image: "https://www.overtake.gg/proxy.php?image=http%3A%2F%2Fwww.easy-upload.net%2Ffichiers%2FAMS_CART2.201661517337.jpg&hash=0bdb907db7e8bd048a22626ed9999e79",
+      link: "https://www.overtake.gg/downloads/cart-extreme.10810/download",
+      icon: "🚗"
+    },
+
+========================================================================
