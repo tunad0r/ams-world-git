@@ -120,6 +120,26 @@ export const ALL_MODS = {
       link: "https://www.overtake.gg/downloads/cart-extreme.10810/download",
       icon: "🚗"
     },
+    {
+      id: 12, // <-- Altere para o próximo número sequencial (Ex: 4, 5, 6...)
+      title: "MONTE NEGRO GP",
+      category: "CIRCUITOS",
+      downloads: "1",
+      description: "Circuito de Monte Negro (Fantasy). Convertido diretamente do rFactor1. Pista originalmente feita por Victorry.",
+      image: "https://cdn.discordapp.com/attachments/1512504124778877091/1518809179446579390/20260622211546_1.jpg?ex=6a3b44c6&is=6a39f346&hm=b523e96e27cd6d602e1d16183ba2db56623c44ddf13448c7dd590dbe8e197576&",
+      link: "https://drive.google.com/file/d/1jZ1Ia59RlgK8EXWYaF--ViErhg8X_elN/view?usp=drivesdk",
+      icon: "🏁"
+    },
+    {
+      id: 13, // <-- Altere para o próximo número sequencial (Ex: 4, 5, 6...)
+      title: "TN CLASSE 2 2020",
+      category: "VEÍCULOS",
+      downloads: "0",
+      description: "Mod da TN Classe 2 completo. Convertido do rFactor 1.",
+      image: "https://cdn.discordapp.com/attachments/1512504124778877091/1518809179966541964/20260622211332_1.jpg?ex=6a3b44c6&is=6a39f346&hm=3d5c1c77162b1fd8262b523b82eee544561e14e7c07ea30728feaaa9daa51d0c&",
+      link: "https://drive.google.com/file/d/1xou6bF4fQZ1PnfI2c-b83BWBbL4FRw2Y/view",
+      icon: "🚗"
+    },
   ],
   en: [
     {
@@ -238,6 +258,26 @@ export const ALL_MODS = {
       description: "The classic IndyCar category from 1998. Made by Patrick Giranthon.",
       image: "https://cdn.discordapp.com/attachments/1512504124778877091/1518448902326587452/AMS_CART2.201661517337.jpg?ex=6a3a9dfd&is=6a394c7d&hm=e9c108b92be2b95bfa7761a9bc8aaa25ed0f829374222902839ca05808308192",
       link: "https://www.overtake.gg/downloads/cart-extreme.10810/download",
+      icon: "🚗"
+    },
+    {
+      id: 12, // <-- Coloque o mesmo número que definiu no bloco de cima
+      title: "MONTE NEGRO GP",
+      category: "TRACKS",
+      downloads: "1",
+      description: "Monte Negro Circuit (Fantasy). Converted directly from rFactor1. Track originally made by Victorry.",
+      image: "https://cdn.discordapp.com/attachments/1512504124778877091/1518809179446579390/20260622211546_1.jpg?ex=6a3b44c6&is=6a39f346&hm=b523e96e27cd6d602e1d16183ba2db56623c44ddf13448c7dd590dbe8e197576&",
+      link: "https://drive.google.com/file/d/1jZ1Ia59RlgK8EXWYaF--ViErhg8X_elN/view?usp=drivesdk",
+      icon: "🏁"
+    },
+    {
+      id: 13, // <-- Coloque o mesmo número que definiu no bloco de cima
+      title: "TN CLASSE 2 2020",
+      category: "VEHICLES",
+      downloads: "0",
+      description: "Complete TN Class 2 mod. Converted from rFactor 1.",
+      image: "https://cdn.discordapp.com/attachments/1512504124778877091/1518809179966541964/20260622211332_1.jpg?ex=6a3b44c6&is=6a39f346&hm=3d5c1c77162b1fd8262b523b82eee544561e14e7c07ea30728feaaa9daa51d0c&",
+      link: "https://drive.google.com/file/d/1xou6bF4fQZ1PnfI2c-b83BWBbL4FRw2Y/view",
       icon: "🚗"
     },
   ]
